@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#Size {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10px;
+  width: 3740px;
+  background-color: yellow;
+}
+
+h6 {
+  font-size: 1vw;
+}
+
+#Temp0 {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  color: red;
+}
+
+#Temp1 {
+  position: absolute;
+  top: 0;
+  left: 430.5px;
+  color: red;
+}
+
+#Temp2 {
+  position: absolute;
+  top: 0;
+  left: 898px;
+  color: greenyellow;
+}
+
+#Temp3 {
+  position: absolute;
+  top: 0;
+  left: 1365.5px;
+  color: orange;
+}
+
+#Temp4 {
+  position: absolute;
+  top: 0;
+  left: 1833px;
+  color: pink;
+}
+
+#Temp5 {
+  position: absolute;
+  top: 0;
+  left: 2300.5px;
+  color: powderblue;
+}
+
+#Temp6 {
+  position: absolute;
+  top: 0;
+  left: 2768px;
+  color: orangered;
+}
+
+#Temp7 {
+  position: absolute;
+  top: 0;
+  left: 3235.5px;
+  color: blue;
+}
+
+#WeatherGraph {
+  position: absolute;
+  left: 0;
+}
+
+#WeatherGraph #GraphTemp {
+  stroke: orange;
+  stroke-width: 5px;
+  fill: rgba(255, 166, 0, 0.68);
+}
+
+#WeatherGraph #GraphRain {
+  display: none;
+  stroke: #00e1ff;
+  stroke-width: 5px;
+  fill: rgba(0, 238, 255, 0.68);
+}
