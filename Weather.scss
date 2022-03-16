@@ -3,17 +3,70 @@
     padding: 0;
 }
 
+#Weather{
+    position: relative;
+    width: 100vw;
+    height: 35vh;
+    background-color: rgb(96, 0, 116);
+}
+
+
+
+.Weather-grid {
+    position: absolute;
+    bottom: 0;
+    width: 95vw;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0 2.5vw 0 2.5vw;
+    .Time {
+        margin: 0 auto 1vw auto;
+        text-align: center;
+        display: block;
+        color: white;
+        background-color: rgba(255, 255, 255, 0.493);
+        border-radius: 14px;
+        width: 2.5vw;
+        padding: 0.05vw;
+    }
+  
+  .Weather-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#WeatherWidget{
+}
+
 #Size{
     position: absolute;
     top: 0;
     left: 0;
     height: 10px;
     width: 3740px;
-    background-color: yellow;
 }
 
 h6{
     font-size: 1vw;
+}
+
+#Tester{
+    position: absolute;
+    bottom: 0;
+    background-color: rebeccapurple;
 }
 
 #Temp0{
@@ -68,10 +121,8 @@ h6{
 }
 
 #WeatherGraph{
-    position: absolute;
-    left: 0;
     #GraphTemp{
-        stroke: orange;
+        stroke: rgb(245, 159, 0);
         stroke-width: 5px;
         fill: rgba(255, 166, 0, 0.68);
     }

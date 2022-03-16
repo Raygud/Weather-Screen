@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="/assets/css/Weather.css">
+    <link rel="stylesheet" href="Weather.css">
 
     <script src="/Weather-App.js" defer></script>
     <script src="/WeatherApi.js" defer></script>
@@ -12,78 +12,112 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="Size"></div>
+    <section id="Weather">
+        <section id="WeatherWidget">
+
+            <section>
+                <h6 id="Temp0">??°C</h6>
+                <h6 id="Temp1">??°C</h6>
+                <h6 id="Temp2">??°C</h6>
+                <h6 id="Temp3">??°C</h6>
+                <h6 id="Temp4">??°C</h6>
+                <h6 id="Temp5">??°C</h6>
+                <h6 id="Temp6">??°C</h6>
+                <h6 id="Temp7">??°C</h6>
+    
+                <svg id="WeatherGraph"
+                width="3840" height="500"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                style="background-color: rgba(255, 255, 255, 0);">
+    
+                    <path id="GraphTemp"
+                    d="M0,300
+    
+    
+                    L467.5,50
+                    L935,300
+                    L1402,50
+                    L1870,300
+                    L2337.5,50
+                    L2805,300
+                    L3272.5,50
+                    L3740,300
+                    z"/>
+    
+                    <path id="Line"
+                    d="M0,300
+                    L3740,300
+                    z" style="stroke: rgb(0, 0, 0);"/>
+    
+                    <path id="GraphRain"
+                    d="M0,300
+    
+    
+                    L155,50
+                    L310,300
+                    L465,50
+                    L620,300
+                    L775,50
+                    L930,300
+                    L1085,50
+                    L1240,300
+                    L1395,50
+                    L1550,300
+                    L1705,50
+                    L1860,300
+                    L2015,50
+                    L2170,300
+                    L2325,50
+                    L2480,300
+                    L2635,50
+                    L2790,300
+                    L2945,50
+                    L3100,300
+                    L3255,50
+                    L3410,300
+                    L3565,50
+                    L3740,300
+                    z"/>
+                </svg>
+            </section>
+        </section>
+    
+    
+        <div class="Weather-grid">
+            <div class="Weather-item">
+                <span class="Time">10:00</span>
+                <img src="/test.png" alt="">
+            </div>
+            <div class="Weather-item">
+                <span class="Time">10:00</span>
+                <img src="/test.png" alt="">
+            </div>
+            <div class="Weather-item">
+                <span class="Time">10:00</span>
+                <img src="/test.png" alt="">
+            </div>
+            <div class="Weather-item">
+                <span class="Time">10:00</span>
+                <img src="/test.png" alt="">
+            </div>
+            <div class="Weather-item">
+                <span class="Time">10:00</span>
+                <img src="/test.png" alt="">
+            </div>
+            <div class="Weather-item">
+                <span class="Time">10:00</span>
+                <img src="/test.png" alt="">
+            </div>
+            <div class="Weather-item">
+                <span class="Time">10:00</span>
+                <img src="/test.png" alt="">
+            </div>
+            
+          </div>
+    </section>
   <!-- Width-Height -->
     <!-- 3840-2160 -->
-    <section id="WeatherWidget">
-
-        <section>
-            <h6 id="Temp0">??°C</h6>
-            <h6 id="Temp1">??°C</h6>
-            <h6 id="Temp2">??°C</h6>
-            <h6 id="Temp3">??°C</h6>
-            <h6 id="Temp4">??°C</h6>
-            <h6 id="Temp5">??°C</h6>
-            <h6 id="Temp6">??°C</h6>
-            <h6 id="Temp7">??°C</h6>
-
-            <svg id="WeatherGraph"
-            width="3840" height="500"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            style="background-color: rgba(255, 255, 255, 0);">
-
-                <path id="GraphTemp"
-                d="M0,300
-
-
-                L467.5,50
-                L935,300
-                L1402,50
-                L1870,300
-                L2337.5,50
-                L2805,300
-                L3272.5,50
-                L3740,300
-                z"/>
-
-                <path id="Line"
-                d="M0,300
-                L3740,300
-                z" style="stroke: rgb(0, 140, 255);"/>
-
-                <path id="GraphRain"
-                d="M0,300
-
-
-                L155,50
-                L310,300
-                L465,50
-                L620,300
-                L775,50
-                L930,300
-                L1085,50
-                L1240,300
-                L1395,50
-                L1550,300
-                L1705,50
-                L1860,300
-                L2015,50
-                L2170,300
-                L2325,50
-                L2480,300
-                L2635,50
-                L2790,300
-                L2945,50
-                L3100,300
-                L3255,50
-                L3410,300
-                L3565,50
-                L3740,300
-                z"/>
-            </svg>
-        </section>
-    </section>
     
 </body>
 </html>

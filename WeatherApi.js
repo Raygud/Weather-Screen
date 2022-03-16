@@ -39,7 +39,7 @@ async function getWeatherData(latitude, longitude) {
     const data = await response.json();
     for (let i = 0; i < 8; i++) {
      document.getElementById("Temp"+i).innerHTML = Math.round(data.hourly[q].temp)+"°C"
-     document.getElementById("Temp"+i).style.top = TempRange[Math.round(data.hourly[q].temp)*8]-90+"px"
+     document.getElementById("Temp"+i).style.top = TempRange[Math.round(data.hourly[q].temp)*8]-55+"px"
 
     q = q + 2
     }
