@@ -3,17 +3,63 @@
   padding: 0;
 }
 
+body {
+  background-color: rebeccapurple;
+  width: 3840px;
+  height: 2160px;
+}
+
+#Weather {
+  position: relative;
+  width: 100vw;
+  height: 35vh;
+  background-color: #600074;
+}
+
+.Weather-grid {
+  position: absolute;
+  bottom: 0;
+  width: 95vw;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  margin: 0 2.5vw 0 2.5vw;
+}
+
+.Weather-grid .Time {
+  margin: 0 auto 1vw auto;
+  text-align: center;
+  display: block;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.493);
+  border-radius: 14px;
+  width: 2.5vw;
+  padding: 0.05vw;
+}
+
+.Weather-grid .Weather-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
 #Size {
   position: absolute;
   top: 0;
   left: 0;
   height: 10px;
   width: 3740px;
-  background-color: yellow;
 }
 
 h6 {
   font-size: 1vw;
+}
+
+#Tester {
+  position: absolute;
+  bottom: 0;
+  background-color: rebeccapurple;
 }
 
 #Temp0 {
@@ -72,13 +118,8 @@ h6 {
   color: blue;
 }
 
-#WeatherGraph {
-  position: absolute;
-  left: 0;
-}
-
 #WeatherGraph #GraphTemp {
-  stroke: orange;
+  stroke: #f59f00;
   stroke-width: 5px;
   fill: rgba(255, 166, 0, 0.68);
 }

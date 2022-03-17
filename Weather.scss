@@ -3,6 +3,12 @@
     padding: 0;
 }
 
+body{
+    background-color: rebeccapurple;
+    width: 3840px;
+    height: 2160px;
+}
+
 #Weather{
     position: relative;
     width: 100vw;
@@ -35,20 +41,6 @@
     font-size: 30px;
     text-align: center;
   }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-#WeatherWidget{
 }
 
 #Size{

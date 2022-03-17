@@ -1,0 +1,30 @@
+body {
+  width: 3840px;
+  height: 2160px;
+  background-color: rebeccapurple;
+}
+
+#Weather-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 10px;
+}
+
+#Weather-grid div {
+  margin: 1vw;
+  height: 10vh;
+  text-align: center;
+}
+
+svg {
+  margin: auto;
+  width: 6vw;
+  height: 6vw;
+}
+
+#Day0 {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
