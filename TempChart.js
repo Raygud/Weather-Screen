@@ -67,7 +67,7 @@ async function getWeatherData(latitude, longitude) {
 
     
 const ctx = document.getElementById("TempChart").getContext("2d")
-let Gradient = ctx.createLinearGradient(0,0,0, 220)
+let Gradient = ctx.createLinearGradient(0,0,0, 600)
 Chart.defaults.font.size = 20;
 Chart.defaults.color = "#ffffff";
 
